@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    color: black;
+    
+
+}
+
+/*Styling the header content */
+.header{
+    display:flex;
+    height: 64px;
+
+    
+}
+
+.header-content{
+    display: flex;
+    flex-grow: 1;
+    margin-left: 24px;
+    align-self: center;
+}
+
+.header-content span{
+    color: grey;
+}
+
+.header-nav{
+    align-self: center;
+    margin-right: 24px;
+}
+.header-nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+
