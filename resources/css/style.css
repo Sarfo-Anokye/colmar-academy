@@ -1,12 +1,17 @@
+html{
+   
+}
 body{
-    background-color: white;
+    background-color:white;
     color: black;
+    ma
     
 
 }
 
 /*Styling the header content */
 .header{
+    background-color:white;
     display:flex;
     height: 64px;
 
@@ -33,4 +38,75 @@ body{
     color:black;
     font-size: 16px;
 }
+ 
+/* styling main content */
+.main-content-1{
+    background-color: gray;
+    display: flex;
+    margin-bottom: 32px;
+
+}
+.main-content-1 #image{
+    margin-bottom:32px;
+    margin-left:24px;
+    width:60%;
+    
+
+}
+.image-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:24px;
+
+}
+.image-content button{
+    padding:8px 0px;
+}
+
+
+/* Styling main content 2 */
+.main-content-2{
+    display: flex;
+    align-items: flex-start;
+    
+    
+
+}
+.image-container-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:24px;
+    width:60%;
+}
+.right-column{
+    margin-left: 24px;
+    justify-content: center;
+   
+
+}
+#img{
+ 
+    
+}
+.contentbox {
+    text-align: center;
+    width:65%;
+}
+
+.box1{
+    display: flex;
+   
+  
+   
+ 
+    
+}
+.picturebox{
+    
+    
+    
+}
+
 
