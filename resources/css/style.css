@@ -83,30 +83,38 @@ body{
 .right-column{
     margin-left: 24px;
     justify-content: center;
+    
    
 
 }
 #img{
- 
+ max-width: 100%;
+ height:auto;
     
 }
 .contentbox {
-    text-align: center;
     width:65%;
+    padding: 40px;
+   
 }
 
 .box1{
     display: flex;
-   
-  
-   
- 
-    
+    max-width: 100%;    
 }
 .picturebox{
+    flex-basis: 35%;
     
     
     
 }
-
-
+ span{
+    font-size:30px;
+    font-weight: bold;
+  
+}
+.main-content-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
